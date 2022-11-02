@@ -1,23 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-
-<div class="top-nav-bar-wrapper">
-    <ul>
-        <li><a href="">Deliver to Pakistan</a></li>
-        <li><input type="text" placeholder="Search"></li>
-        <li><a href="" id="dropdown" ondrag=" dropdown()">Hello,Sign in</a></li>
-        <li><a href="">Cart</a></li>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="./styles.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  <div class="top-nav-bar bg-secondary">
+    <ul class="d-flex m-0 p-0 align-items-center justify-content-center">
+    
+        <li class="m-2 mx-3"><a href="" class="text-light" >Amazon</a></li>
+        <li class="m-2 mx-3"><a href="" class="text-light">Deliver to Pakistan</a></li>
+        <li class="m-2 mx-3"><input type="text" placeholder="Search"></li>
+        <li class="m-2 mx-3"><a href="" class="text-light">Delivery</a></li>
+        <li class="m-2 mx-3"><a href="" class="text-light" id="showoverlay" onmouseover="showoverlay()" onmouseleave="hideoverlay()">Hello, Sign In</a></li>
+        <div class="overlay" id="overlay"></div>
+        <li class="m-2 mx-3"><a href="" class="text-light">Cart</a></li>
     </ul>
-</div><!-- /.top-nav-bar-wrapper -->
+  </div> <!-- /.top-nav-bar -->
+ 
+  
+  
 
- <script src="main.js"></script>   
-</body>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <script src="main.js"></script>
+ </body>
 </html>

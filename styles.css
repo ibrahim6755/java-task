@@ -1,21 +1,12 @@
-.top-nav-bar-wrapper ul {
-display: flex;
-margin: 0px;
-padding: 0px;
-align-items: center;
-justify-content: end;
+.top-nav-bar ul li{
+    list-style-type: none;
 }
-.top-nav-bar-wrapper ul li{
-list-style-type: none;
-margin: 12px;
-}
-.top-nav-bar-wrapper ul li a{
-    padding: 8px;
+.top-nav-bar ul li a{
 text-decoration: none;
-border: 1px solid black;
-font-weight: 800;
-color: black;
 }
-.top-nav-bar-wrapper ul li input{
-    padding: 12px;
+.overlay{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    inset: 0;
 }
