@@ -23,6 +23,7 @@ text-decoration: none;
     border: 1px solid orange;
 }
 .side-bar-wrapper{
+    display: none;
   background-color: white;
   border: 1px solid black;
 }

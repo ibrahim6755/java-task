@@ -4,6 +4,9 @@ function showoverlay(){
 function hideoverlay(){
     document.getElementById('overlay').style.display = 'none'
 }
+function showbox(){
+    document.getElementById('box').style.display = 'block'
+}
 function hidebox(){
     document.getElementById('box').style.display = 'none'
 }
