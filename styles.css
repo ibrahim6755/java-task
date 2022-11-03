@@ -21,7 +21,6 @@ text-decoration: none;
     border: 0px;
     justify-content: center !important;
     border: 1px solid orange;
-
 }
 .side-bar-wrapper{
   background-color: white;
@@ -36,8 +35,10 @@ color: black;
 }
 .side-menu button
 {
-    height: 10%;
     border: 0;
     background-color: white;
     font-size: large;
+}
+.bg-grey{
+background-color: #6c757d;
 }
