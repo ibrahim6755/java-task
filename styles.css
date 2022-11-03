@@ -6,7 +6,7 @@ text-decoration: none;
 }
 .overlay{
     display: none;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     inset: 0;
 }
@@ -15,7 +15,6 @@ text-decoration: none;
     position: fixed;
     top: 10%;
     right:20%;
-
 }
 .drop-box button{
     background-color:rgba(255, 166, 0, 0.418);
@@ -23,4 +22,22 @@ text-decoration: none;
     justify-content: center !important;
     border: 1px solid orange;
 
+}
+.side-bar-wrapper{
+  background-color: white;
+  border: 1px solid black;
+}
+.side-bar-wrapper ul li{
+list-style-type: none;
+}
+.side-bar-wrapper ul li a{
+text-decoration: none;
+color: black;
+}
+.side-menu button
+{
+    height: 10%;
+    border: 0;
+    background-color: white;
+    font-size: large;
 }

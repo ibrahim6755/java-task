@@ -10,3 +10,6 @@ function showdropbox(){
 function hidedropbox(){
     document.getElementById('dropbox').style.display = 'none'
 }
+function hidebox(){
+    document.getElementById('box').style.display = 'none'
+}
