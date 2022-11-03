@@ -10,3 +10,15 @@ text-decoration: none;
     position: fixed;
     inset: 0;
 }
+.drop-box{
+    background-color: rgba(218, 151, 69, 0.219);
+    position: fixed;
+    top: 10%;
+    right:20%;
+
+}
+.drop-box button{
+    background-color:rgba(255, 166, 0, 0.418);
+    border: 0px;
+    width: 100%;
+}
