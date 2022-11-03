@@ -11,7 +11,7 @@ text-decoration: none;
     inset: 0;
 }
 .drop-box{
-    background-color: rgba(218, 151, 69, 0.219);
+    background-color:white;
     position: fixed;
     top: 10%;
     right:20%;
@@ -20,5 +20,7 @@ text-decoration: none;
 .drop-box button{
     background-color:rgba(255, 166, 0, 0.418);
     border: 0px;
-    width: 100%;
+    justify-content: center !important;
+    border: 1px solid orange;
+
 }
